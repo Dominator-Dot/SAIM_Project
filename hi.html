@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: red;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h2 {
+            background-color: blue;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        h3 {
+            background-color: green;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 2px 2px 5px red;
+        }
+
+        p.a{
+            background-color: yellow;
+            font-family: 'broadley',cursive;
+            text-decoration:line-through;
+            text-transform: uppercase;
+
+
+        }
+
+        p.b{
+            background-color: burlywood;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:underline;
+            text-emphasis: red;
+            text-decoration-color: blue;
+
+        }
+        div.gallery {
+            margin: 10px;
+            float: left;
+            border: 1px solid #ccc;
+
+        }
+        div.gallery:hover {
+            transform:scale(1.3);
+            border:1px solid #777;
+        }
+        div.gallery img {
+            width: 100;
+            height: 100;
+            transition: transform 0.3s ease;
+        }
+       div.absolute{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+    .container{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: rgb(46, 27, 209);
+    }
+
+    .container >div {
+        background-color: aliceblue;
+        width: 100px;
+        margin: 10px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!-- <h1>niggggggsssssssss</h1>
+    <p> This is the body paragraph and this is our first code in html in programming language </p>
+    <img src="jp.jpg">
+    <h2 style="background-color:blue;" style="text-align: center;"> Hello World </h2>
+    <p style="background-color: tomato;"> THis is the aragraph and here goes the main content of the website </p>
+
+    <h1> This is the heading of the document</h1>
+    <h2> THis is the sub heading of the following heading </h2>
+    <h3> THis is the sub heading of the following heading </h3> -->
+
+
+    <!-- <p class="a">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.</p>
+
+    <p class="b">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum.</p> -->
+
+<!-- 
+        <h2> Responsive Image Gallery </h2>
+
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/np.jpg">
+                    <img src="public/np.jpg" alt="np1"  width="300" height="200">
+                    <div class="desc">This is the Beautiful Image of Swayambhunath Temple </div>
+                </a>
+            </div>
+        </div>
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/np1.jpeg">
+                    <img src="public/np1.jpeg" alt="np1"  width="300" height="200">
+                    <div class="desc">Beautiful Picutre of our nation's pride Mt. Everest </div>
+                </a>
+            </div>
+        </div>
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/np3.jpeg">
+                    <img src="public/np3.jpeg" alt="np1"  width="300" height="200">
+                    <div class="desc">Beautiful Scenary of Lumbini Temple </div>
+                </a>
+            </div>
+        </div>
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/np4.jpeg">
+                    <img src="public/np4.jpeg" alt="np1"  width="300" height="200">
+                    <div class="desc">Stunning Vew of Kathmandu Valley </div>
+                </a>
+            </div>
+        </div>
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/rara.jpg">
+                    <img src="public/rara.jpg" alt="np1"  width="300" height="200">
+                    <div class="desc">Scenic Beauty Lake Rara</div>
+                </a>
+            </div>
+        </div>
+        <div class="Responsive">
+            <div class="gallery">
+                <a targert="_blank" href="public/shey.jpg">
+                    <img src="public/shey.jpg" alt="np1"  width="300" height="200">
+                    <div class="desc">Heaven on earth place Shey Phoksundo</div>
+                </a>     
+            </div>
+        </div>
+        <h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div> -->
+
+
+
+    <h1>Flexible Box</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+
+    </div>
+    
+</div>
+</body>
+
+</html>
