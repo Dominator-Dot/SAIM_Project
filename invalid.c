@@ -37,7 +37,7 @@ int main(){
             printf("the %dth fibonacci number is %d\n",n,fib);
 
 
-    }else if (choice==2){
+    }else if (choice==9){
         printf("Fibonacci series up to %d terms ::\n",n);
         for(int i=0;i<n;i++){
             printf("%d",fib(i));
